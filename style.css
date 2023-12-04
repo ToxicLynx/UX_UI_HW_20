@@ -1,0 +1,338 @@
+body {
+    background-color: #f5f5ff;
+    padding: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pinkLetters {
+    color: #ff3a5e;
+  }
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr);    /* 3 rows */
+    gap: 10px;                             /* Adjust the gap between grid items */
+    padding: 20px;         /* Optional padding for the entire grid */
+  }
+.nav ul li{
+text-align: right;
+list-style: none;
+line-height: 2rem;
+/* text-align: center; */
+left: 8rem;
+}
+.nav{
+    display: flex;
+    margin-left: auto;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+}
+.navbar-list{
+    /* list-style: none; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    display: flex;
+flex-direction: column;
+}
+.navbar-list a{
+    text-decoration: none;
+    color: #ff3a5e; 
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar-list a :visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    height: 2px;
+    width: 25px;
+    background-color: pink;
+    margin: 5px 0;
+  }
+.figure h2 {
+    text-align: right;
+}
+.figure img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+}
+
+.figure{
+    background-color: #22222B;
+    color: white;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 1.5rem;
+}
+
+.prjctsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 2 columns */
+    grid-template-rows: repeat(1, 1fr); 
+    gap: 10px;                             /* Adjust the gap between grid items */
+    padding: 20px;
+}
+.footerContainer{
+    position: relative;
+}
+.footerInfo{
+    position: absolute;
+    /* text-align: right; */
+    line-height: 0.25%;
+    bottom:0;
+    right: 0;
+}
+
+.backToTop{
+    text-align: center;
+}
+
+/* MY Works Page */
+.nav2 ul li{
+    text-align: right;
+    list-style: none;
+    line-height: 2rem;
+    /* text-align: center; */
+    /* left: 8rem; */
+}
+.nav2{
+    width:20%;
+    
+  
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+.space h2{
+    position: absolute;
+    bottom:0;
+}
+.uoft{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 90%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    /* border-radius: 20px; */
+}
+#removeme{
+    list-style: none;
+}
+.seneca{
+    /* border-radius: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 90%;
+
+
+}
+.mySkills{
+    border-radius: 20px;
+    line-height: 2rem;
+    background-color: #22222B;
+    color: white;
+    margin: 20px; 
+    padding: 1.5rem;
+    width: 40%;
+
+    /* order:-4; */
+    /* height: 70%; */
+
+}
+.myExperience{
+    border-radius: 20px;
+    background-color: #22222B;
+    color: white;
+    margin: 20px; 
+    padding: 1.5rem;
+    width: 40%;
+    /* height: 50%; */
+}
+
+.space{
+    width:20%
+}
+.myExperience img{
+    width: 30%;
+    height: 30%;
+
+
+}
+
+.heading{
+    display: flex;
+}
+ .ftrdWrkContainer1{
+    display: grid; 
+     grid-template-columns: repeat(3, 1fr); /*Adjust the gap between grid items */
+    gap: 10px;                             
+    padding: 20px;
+} 
+.footer{
+    position: relative;
+}
+.footerInfo1{
+    /* position: absolute; */
+    text-align: right;
+    line-height: 0.25%;
+    bottom:0;
+    right: 0;
+}
+
+/* Florio Case Study */
+.subTitle{
+    font-size: 20px;
+    color: #4c4c4c;
+}
+.florioHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.florioHero h2{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: auto;
+padding-bottom: 20px;
+}
+.florioHero img{
+    max-width: 75%;
+    margin: auto;
+}
+.challenge img{
+    max-width: 75%;
+    margin: auto;
+}
+.solution img{
+    max-width: 75%;
+    margin: auto;
+}
+.h4Title{
+color: #86b049;
+}
+.caseTitle{
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CSS for list-group */
+.list-group-item {
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.list-group-item h5 {
+    color: #86B049;
+}
+
+.btn-link {
+    color: #86B049;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+      font-size: 14px;
+      /* background-color: #ff3a5e; */
+    
+    }
+    .nav{
+        height: 35px;
+    }
+    .navbar-list {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        font-size: small;
+        /* background-color: #f0f0f0; */
+    
+      }
+    
+      .navbar-list.active {
+        display: flex;
+      }
+    
+      .menu-toggle {
+        display: flex;
+      }
+    /* div{
+      width:100%;
+      margin-bottom: 20px;
+      align-items: center;
+    } */ 
+    .gridContainer{
+/* height: 60px; */
+        grid-template-columns: 1fr;
+
+    }
+    .prjctsContainer{
+        grid-template-columns: 1fr;
+
+    }
+    .flexContainer{
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .nav, .nav2  {  order:-3;}
+    /* .nav,
+    .mySkills,
+    .myExperience{
+        order: 0;
+    } */
+
+    .ftrdWrkContainer1{
+        grid-template-columns: 1fr;
+    }
+    .mySkills{
+        /* margin-right: 20px; */
+        padding-right: 18.5rem;
+        margin-left: 2rem;
+    }
+    .myExperience{
+        padding-right: 18.5rem;
+        margin-left: 2rem;
+    }
+.footerInfo{
+    /* padding-top:10rem; */
+    height: 10px;
+}
+}
